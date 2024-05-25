@@ -13,7 +13,13 @@ public class Basic {
         int b = in.nextInt();
 
         int sum = a + b;
+        int differ = a - b;
+        int multi = a * b;
+        int div = a / b;
 
         System.out.println(sum);
+        System.out.println(differ);
+        System.out.println(multi);
+        System.out.println(div);
     }
 }
